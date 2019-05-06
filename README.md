@@ -26,7 +26,7 @@
 
 ### Estructura de organizacion
 - [Hugo organization oficial doc link](https://gohugo.io/content-management/organization/)
-    cada carpeta que se coloque dentro de la carpeta content sera interpretada como una nueva seccion o pagina
+    cada carpeta que se coloque dentro de la carpeta `content` sera interpretada como una nueva seccion o pagina
     por ejemplo:
     ```php
     .
@@ -51,12 +51,18 @@
 ```
 **Build command**
 
-al correr este comando se creara la carpeta public con todos los contenidos de la web
+al correr este comando se creara la carpeta `public` con todos los contenidos de la web
 
 **nota**: _siempre ante de volver a correr el comando build devese borrar la carpeta public_
 ```
 ~$ hugo
 ```
+---------------
+### Deploy Site Examples
+in the official documentation exist an exampole about the way deploy the sites on differents hosting
+
+[Hugo official deploy doc LINK](https://gohugo.io/hosting-and-deployment/)
+
 ---------------
 ### Hugo themes
 
